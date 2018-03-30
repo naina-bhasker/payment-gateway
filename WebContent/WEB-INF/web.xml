@@ -1,0 +1,38 @@
+
+  <error-page>
+    <exception-type>java.lang.Exception</exception-type>
+    <location>/error.jsp</location>
+  </error-page>
+
+<servlet>
+    <servlet-name>e</servlet-name>
+    <servlet-class> pay.ey </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>e</servlet-name>
+    <url-pattern>/e</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>credit</servlet-name>
+    <servlet-class> pay.credit </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>credit</servlet-name>
+    <url-pattern>/credit</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>pinnum</servlet-name>
+    <servlet-class> pay.pin </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pinnum</servlet-name>
+    <url-pattern>/pinnum</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>trans</servlet-name>
+    <servlet-class> pay.transaction </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trans</servlet-name>
+    <url-pattern>/trans</url-pattern>
+  </servlet-mapping>
